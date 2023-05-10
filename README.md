@@ -107,6 +107,10 @@ Pada halaman data pembayaran terdapat informasi mengenai data transaksi customer
 Jika user memiliki role/level "user" maka akan di arahkan ke halaman customer. Untuk tampilan utama dari halaman customer akan menampilkan produk-produk yang terdapat di toko ini. Seorang Staff memiliki hak untuk melakukan pembelian. Pada role ini terdapat menu yang bisa di akses seperti cart, pemesanan, dan riwayat pembelian.
 #
 ### Detail Produk
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/a40e4f66-fb88-4fca-b559-cb58a3fb9ec3)
+Fitur ini juga terdapat pada halaman utama. Berfungsi untuk memudahkan user dalam pencarian produk.
+#
+### Detail Produk
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/d8470709-d3bf-427d-855d-d4079f25d105)
 Ketika user mengklik salah satu produk maka akan ditampilkan detail dari produk tersebut. Terdapat sebuah button yang berfungsi untuk menambahkan produk ke keranjang customer.
 #
