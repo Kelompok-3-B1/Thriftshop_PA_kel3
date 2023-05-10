@@ -22,6 +22,8 @@ Namun dalam hal penanganan transaksi serta pencatatan data produk tak jarang dit
 #
 # TOTURIAL PENGGUNAAN WEB
 ## 1.	Halaman Utama
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/7e3c2e90-e516-497a-bc4a-352024b68d83)
+Saat user mengakses website, maka tampilan utamanya akan seperti pada gambar di atas. Pada bagian nav bar terdapat menu produk dan juga login yang dapat diakses oleh user. Terdapat pula fitur searching yang dapat memudahkan user dalam mencari produk yang terdapat pada website.
 
 ## 2.	Halaman Login
 ### A.	Halaman Admin
