@@ -12,7 +12,7 @@
         <img src="img/wallpaper.jpg" width="100%">
    </div>
    <div class="box-login">
-       <h2>Login</h2>
+       <h2>L O G I N</h2>
        <?php 
         if(isset($_GET['pesan'])){
             if($_GET['pesan']=="gagal"){
