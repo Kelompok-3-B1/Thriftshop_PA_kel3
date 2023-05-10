@@ -39,30 +39,33 @@ Jika pengguna ingin mengakses kedalam website, maka pertama-tama mereka harus me
 #
 ![Screenshot (8)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/163bfd45-6d81-488a-bd29-9b4e5da3f589)
 Apabila username atau password yang dimasukan tidak sesuai, maka user harus memasukan lagi username serta password mereka hingga sesuai.
-
+#
 ### A.	Halaman Admin
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/acec0f7b-7dd0-4ebd-9e53-a8ebf47e6cf7)
+![Screenshot (9)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/005f3403-c36f-4d76-9b40-a79e61621b38)
 Jika user memiliki role/level "admin" maka akan di arahkan ke halaman admin. Untuk tampilan utama dari halaman admin akan menampilkan dashboard Admin. Seorang Admin memiliki hak/privilege untuk mengelola kategori produk dan juga produk (CRUD). Pada halaman Admin terdapat menu Profil, Data Kategori, dan Data Produk.
 
 <br>
 ### Menu Profil
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/11e9400a-eab4-4c6c-a45c-1821c9b925c1)
+![Screenshot (10)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/cf8c9a51-84ad-4629-a9eb-82f88068b7e4)
 Pada halaman profil, website akan menampilkan identitas akun yang dimiliki oleh user (yang digunakan untuk login).
+
 <br>
 ### Data Kategori
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/cd2ec12f-f1d3-4e3a-98e7-c18b93e1e00b)
+![Screenshot (11)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/01871cb3-bcdb-4f97-aaec-828fc30c166f)
 Halaman Data Kategori menampilkan data kategori yang terdapat pada website ini. Pada halaman ini Admin dapat menambahkan data, mengubah serta menghapus data.
+
 <br>
 ### Tambah Data Kategori
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/27a3852e-53f9-4cd4-ba95-3998a499b7bd)
+
 Ketika Admin memilih opsi tambah data, maka tampilannya akan seperti pada gambar di atas. Admin diminta untuk memasukkan Nama Kategori baru, kemudian datanya akan disimpan ke dalam database.
+
 <br>
 ### Edit Data Kategori
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e9e67ada-7245-46ef-b2be-7e2654ead286)
 Ketika Admin memilih opsi edit data, maka tampilannya akan seperti pada gambar di atas. Terdapat sebuah form yang menampilkan nama kategori yang dipilih user untuk kemudian diubah datanya.
 <br>
 ### Data Produk
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/14b3a947-52ff-4474-b847-f7731273cc13)
+![Screenshot (12)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/184a5714-5894-48ac-b36c-42d067e5518a)
 Pada halaman Data Produk akan ditampilkan informasi mengenai data produk yang terdapat pada website ini. Sama seperti pada menu Data Kategori, Admin juga dapat menambah, mengubah, dan menghapus data. Terdapat pula fitur sorting yang berfungsi untuk menampilkan harga terendah ke tertinggi begitu juga sebaliknya.
 <br>
 ### Tambah Data Produk
