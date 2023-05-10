@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
 </head>
 <body id="bg-login">
+   <div class="gambar" >
+        <img src="img/wallpaper.jpg" width="100%">
+   </div>
    <div class="box-login">
        <h2>Login</h2>
        <?php 
