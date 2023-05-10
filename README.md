@@ -57,7 +57,8 @@ Halaman Data Kategori menampilkan data kategori yang terdapat pada website ini. 
 #
 ### Tambah Data Kategori
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/53484a68-f73e-402d-83ba-0bc645a05075)
-Ketika Admin memilih opsi tambah data, maka tampilannya akan seperti pada gambar di atas. Admin diminta untuk memasukkan Nama Kategori baru, kemudian datanya akan disimpan ke dalam database.
+Ketika Admin memilih opsi tambah data, maka tampilannya akan seperti pada gambar di atas. Admin diminta untuk memasukkan Nama Kategori baru, kemudian datanya akan disimpan ke dalam database. Jika Penambahan Data berhasil maka akan terdapat alert seperti gambar di bawah ini.
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/0fd6f4e5-9b20-4ec5-a9d1-f15a0fec6c04)
 
 #
 ### Edit Data Kategori
