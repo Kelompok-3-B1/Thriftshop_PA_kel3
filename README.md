@@ -76,11 +76,11 @@ Ketika Admin memilih opsi hapus yang terdapat pada kolom, maka website akan mena
 Pada halaman Data Produk akan ditampilkan informasi mengenai data produk yang terdapat pada website ini. Sama seperti pada menu Data Kategori, Admin juga dapat menambah, mengubah, dan menghapus data. Terdapat pula fitur sorting yang berfungsi untuk menampilkan harga terendah ke tertinggi begitu juga sebaliknya.
 #
 ### Tambah Data Produk
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/90668ec1-43f5-42c6-9551-7c3c0f0975c1)
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/0b6cdeb5-8d82-44fb-97e0-4284bd5b18e5)
 Ketika Admin memilih menu Tambah data maka tampilannya akan seperti gambar di atas. Admin akan diminta untuk mengisi form yang berisikan kategori, nama produk, harga, foto produk, deskripsi produk, serta status produk.
 #
 ### Edit Data Produk
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e7bd91c6-d6bb-46b2-ab51-c1440fca1974)
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/2c5022ca-f99e-489f-a466-063cade3735c)
 Tampilan dari menu Edit Data Produk sama saja seperti pada menu Tambah Data Produk, namun pada menu ini formnya sudah terisi sesuai dengan detail data dari produk yang ingin diubah oleh Admin.
 #
 
@@ -89,7 +89,7 @@ Tampilan dari menu Edit Data Produk sama saja seperti pada menu Tambah Data Prod
 Jika user memiliki role/level "staff" maka akan di arahkan ke halaman staff. Untuk tampilan utama dari halaman staff akan menampilkan dashboard Staff. Seorang Staff memiliki hak untuk mengelola transaksi yang terdapat pada online store ini. Pada halaman Staff terdapat menu Transaksi.
 #
 ### Transaksi
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/1abb1c6f-c070-4227-ad4f-1774b41d4d0a)
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/27985b06-2b50-4506-8246-f3f712c27eaa)
 Pada Halaman Transaksi terdapat riwayat pembelian yang dilakukan oleh user. Pada kolom data pembelian tersebut terdapat dua aksi yang dapat dilakukan oleh Staff, yaitu untuk melihat detail pembelian dan juga pembayaran apabila status pembelian user bernilai "sudah kirim pembayaran".
 #
 ### Detail Pembelian
