@@ -124,10 +124,6 @@ Pada halaman pemesanan terdapat informasi mengenai pembelian customer, seperti p
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/f44dd715-01bb-4bae-bc4b-412d3b9c1149)
 Pada halaman riwayat pembelian terdapat daftar pembelian yang pernah dilakukan oleh customer. Terdapat pula opsi nota dan pembayaran, dimana nota berfungsi untuk melihat detail pembelian yang dilakukan oleh customer, sedangkan pembayaran adalah halaman yang berisikan informasi mengenai pembayaran produk yang harus diisi oleh customer dalam proses pembelian produk.
 #
-### Riwayat Pembelian
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/f44dd715-01bb-4bae-bc4b-412d3b9c1149)
-Pada halaman riwayat pembelian terdapat daftar pembelian yang pernah dilakukan oleh customer. Terdapat pula opsi nota dan pembayaran, dimana nota berfungsi untuk melihat detail pembelian yang dilakukan oleh customer, sedangkan pembayaran adalah halaman yang berisikan informasi mengenai pembayaran produk yang harus diisi oleh customer dalam proses pembelian produk.
-#
 ### Halaman Nota
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e65f91c3-24b8-462e-b1e8-46f03c6f7733)
 Halaman Nota berisikan infromasi detail mengenai pembelian yang dilakukan oleh customer. terdapat informasi mengenai No. rek pembayaran  yang digunakan pada jual-beli di toko online ini.
