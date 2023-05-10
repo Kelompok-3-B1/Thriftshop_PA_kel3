@@ -34,8 +34,11 @@ Gambar di atas merupakan contoh tampilan ketika user ingin menampilkan detail pr
 
 
 ## 2.	Halaman Login
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/834d51fc-cad8-480b-b37c-fa34bf81106e)
-Tampilan halaman login yang terdapat pada website ini dapat dilihat seperti pada gambar di atas. Ketika user melakukan login, sistem akan membaca level/role yang dimiliki oleh user untuk kemudian diarahkan ke halaman masing-masing role.
+![Screenshot (6)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/5ff64e89-3d67-4ee8-af6a-639d26c4c6fc)
+Jika pengguna ingin mengakses kedalam website, maka pertama-tama mereka harus melakukan login terlebih dahulu sesuai dengan username dan password mereka masing-masing.
+#
+![Screenshot (8)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/163bfd45-6d81-488a-bd29-9b4e5da3f589)
+Apabila username atau password yang dimasukan tidak sesuai, maka user harus memasukan lagi username serta password mereka hingga sesuai.
 
 ### A.	Halaman Admin
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/acec0f7b-7dd0-4ebd-9e53-a8ebf47e6cf7)
