@@ -31,6 +31,8 @@ Pada bagian bawah fitur kategori terdapat konten utama dari halaman ini, yaitu p
 ![Screenshot (5)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/15ae29e6-b11f-45fd-8b91-c62e34df50fb)
 Gambar di atas merupakan contoh tampilan ketika user ingin menampilkan detail produk.
 #
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/a40e4f66-fb88-4fca-b559-cb58a3fb9ec3)
+Contoh penggunaan fitur searching oleh user, fitur ini memudahkan user ketika ingin mencari suatu produk yang terdapat pada website ini.
 
 
 ## 2.	Halaman Login
@@ -105,10 +107,6 @@ Pada halaman data pembayaran terdapat informasi mengenai data transaksi customer
 ### C.	Halaman User
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/a1f33e1e-3422-4baf-969e-078c32e5922d)
 Jika user memiliki role/level "user" maka akan di arahkan ke halaman customer. Untuk tampilan utama dari halaman customer akan menampilkan produk-produk yang terdapat di toko ini. Seorang Staff memiliki hak untuk melakukan pembelian. Pada role ini terdapat menu yang bisa di akses seperti cart, pemesanan, dan riwayat pembelian.
-#
-### Detail Produk
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/a40e4f66-fb88-4fca-b559-cb58a3fb9ec3)
-Fitur ini juga terdapat pada halaman utama. Berfungsi untuk memudahkan user dalam pencarian produk.
 #
 ### Detail Produk
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/d8470709-d3bf-427d-855d-d4079f25d105)
