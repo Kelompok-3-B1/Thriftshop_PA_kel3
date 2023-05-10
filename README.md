@@ -27,6 +27,7 @@ Saat user mengakses website, maka tampilan utamanya akan seperti pada gambar di 
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/6ae8ed70-6c19-4954-85fc-309ce3fabd7f)
 Pada bagian bawah fitur kategori terdapat konten utama dari halaman ini, yaitu produk. User dapat mengklik masing-masing produk yang tertera kemudian website ini akan menampilkan informasi mengenai detail produk yang dipilih oleh user.
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/84e4d61b-a5da-4ea7-86ac-ecd49361910a)
+Gambar di atas merupakan contoh tampilan ketika user ingin menampilkan detail produk.
 
 
 ## 2.	Halaman Login
