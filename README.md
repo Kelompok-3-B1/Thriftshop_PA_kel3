@@ -22,12 +22,16 @@ Namun dalam hal penanganan transaksi serta pencatatan data produk tak jarang dit
 #
 # TOTURIAL PENGGUNAAN WEB
 ## 1.	Halaman Utama
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/7e3c2e90-e516-497a-bc4a-352024b68d83)
+![Screenshot (3)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/456e3f32-350b-40be-9712-e026fcaa36cd)
 Saat user mengakses website, maka tampilan utamanya akan seperti pada gambar di atas. Pada bagian nav bar terdapat menu produk dan juga login yang dapat diakses oleh user. Terdapat pula fitur searching yang dapat memudahkan user dalam mencari produk yang terdapat pada website. Selain fitur searching, website ini juga memiliki fitur yang kategori, dimana user dapat melihat produk berdasarkan kategori yang diinginkan.<br>
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/6ae8ed70-6c19-4954-85fc-309ce3fabd7f)
+#
+![Screenshot (4)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/49054d03-a0b4-4094-a5d3-d50913cb2fd9)
 Pada bagian bawah fitur kategori terdapat konten utama dari halaman ini, yaitu produk. User dapat mengklik masing-masing produk yang tertera kemudian website ini akan menampilkan informasi mengenai detail produk yang dipilih oleh user.
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/84e4d61b-a5da-4ea7-86ac-ecd49361910a)
-Gambar di atas merupakan contoh tampilan ketika user ingin menampilkan detail produk.<br>
+#
+![Screenshot (5)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/15ae29e6-b11f-45fd-8b91-c62e34df50fb)
+Gambar di atas merupakan contoh tampilan ketika user ingin menampilkan detail produk.
+#
+
 
 ## 2.	Halaman Login
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/834d51fc-cad8-480b-b37c-fa34bf81106e)
