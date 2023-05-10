@@ -56,13 +56,19 @@ Halaman Data Kategori menampilkan data kategori yang terdapat pada website ini. 
 
 #
 ### Tambah Data Kategori
-
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/53484a68-f73e-402d-83ba-0bc645a05075)
 Ketika Admin memilih opsi tambah data, maka tampilannya akan seperti pada gambar di atas. Admin diminta untuk memasukkan Nama Kategori baru, kemudian datanya akan disimpan ke dalam database.
 
 #
 ### Edit Data Kategori
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e9e67ada-7245-46ef-b2be-7e2654ead286)
 Ketika Admin memilih opsi edit data, maka tampilannya akan seperti pada gambar di atas. Terdapat sebuah form yang menampilkan nama kategori yang dipilih user untuk kemudian diubah datanya.
+
+#
+### Hapus Data Kategori
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/56681d88-8791-4c9d-a9f3-117a10f0a964)
+Ketika Admin memilih opsi hapus yang terdapat pada kolom, maka website akan menampilkan alert untuk menanyakan Admin apakah data ingin dihapus atau tidak.
+
 #
 ### Data Produk
 ![Screenshot (12)](https://github.com/Chorine88/Posttest2_Web/assets/120235513/184a5714-5894-48ac-b36c-42d067e5518a)
