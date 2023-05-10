@@ -95,10 +95,46 @@ Pada Halaman Transaksi terdapat riwayat pembelian yang dilakukan oleh user. Pada
 ### Detail Pembelian
 ![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e8e975cb-eed8-47f2-927b-86f0caa4fa63)
 Seorang Staff dapat melihat detail pembelian yang dilakukan oleh customer. Pada detail pembelian terdapat informasi mengenai data pembelian, pelanggan, pengiriman, serta produk yang dibeli.
+#
 ### Pembayaran
-![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/8c4fcc45-18a1-4588-b281-7dbc534999c3)
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/9414fdde-6cd8-4495-ab88-bc784a4ffcff)
 Pada halaman data pembayaran terdapat informasi mengenai data transaksi customer yang berisi nama customer, bank, jumlah, dan tanggal. Pada halaman ini Staff diminta untuk memberikan Nomor resi pengiriman, dan status (status pembelian).
 
 
 
 ### C.	Halaman User
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/a1f33e1e-3422-4baf-969e-078c32e5922d)
+Jika user memiliki role/level "user" maka akan di arahkan ke halaman customer. Untuk tampilan utama dari halaman customer akan menampilkan produk-produk yang terdapat di toko ini. Seorang Staff memiliki hak untuk melakukan pembelian. Pada role ini terdapat menu yang bisa di akses seperti cart, pemesanan, dan riwayat pembelian.
+#
+### Detail Produk
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/d8470709-d3bf-427d-855d-d4079f25d105)
+Ketika user mengklik salah satu produk maka akan ditampilkan detail dari produk tersebut. Terdapat sebuah button yang berfungsi untuk menambahkan produk ke keranjang customer.
+#
+### Cart
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/22767b8e-876c-46a8-8809-916e922ef5ad)
+Pada halaman cart terdapat produk-produk yang telah dipilih customer untuk dibeli. Terdapat button Lanjutkan belanja yang akan mengarahkan customer ke halaman produk, button checkout untuk melakukan pembelian, dan button hapus untuk menghapus data produk yang dipilih user dari keranjang.
+#
+### Pemesanan
+![pemesanan](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/533224b4-ca25-4e02-b8b5-e6424f0277a4)
+Pada halaman pemesanan terdapat informasi mengenai pembelian customer, seperti produk, identitas pembeli, dan alamat pengantaran
+#
+### Riwayat Pembelian
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/f44dd715-01bb-4bae-bc4b-412d3b9c1149)
+Pada halaman riwayat pembelian terdapat daftar pembelian yang pernah dilakukan oleh customer. Terdapat pula opsi nota dan pembayaran, dimana nota berfungsi untuk melihat detail pembelian yang dilakukan oleh customer, sedangkan pembayaran adalah halaman yang berisikan informasi mengenai pembayaran produk yang harus diisi oleh customer dalam proses pembelian produk.
+#
+### Riwayat Pembelian
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/f44dd715-01bb-4bae-bc4b-412d3b9c1149)
+Pada halaman riwayat pembelian terdapat daftar pembelian yang pernah dilakukan oleh customer. Terdapat pula opsi nota dan pembayaran, dimana nota berfungsi untuk melihat detail pembelian yang dilakukan oleh customer, sedangkan pembayaran adalah halaman yang berisikan informasi mengenai pembayaran produk yang harus diisi oleh customer dalam proses pembelian produk.
+#
+### Halaman Nota
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/e65f91c3-24b8-462e-b1e8-46f03c6f7733)
+Halaman Nota berisikan infromasi detail mengenai pembelian yang dilakukan oleh customer. terdapat informasi mengenai No. rek pembayaran  yang digunakan pada jual-beli di toko online ini.
+#
+### Halaman Pembayaran
+![image](https://github.com/Kelompok-3-B1/Thriftshop_PA_kel3/assets/93468350/60cbde80-13fc-4ea2-bb16-40231d131079)
+Halaman ini memuat konfirmasi pembayaran oleh customer, dimana customer diminta untuk mengisi nama, bank, jumlah pembayaran, serta bukti transfer pembayaran
+#
+### Logout
+Baik pada halaman Admin, Staff, dan juga Customer ketika user memilih opsi ini maka user akan keluar dari halaman masing-masing role dan diarahkan ke halaman utama lagi.
+
+
