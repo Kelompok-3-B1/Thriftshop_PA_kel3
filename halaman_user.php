@@ -25,22 +25,14 @@
         <div class="container">
             <h1><a href="halaman_user.php">THRIFT SHOP</a></h1>
             <ul>
-                <li><a href="produk_user.php">Produk</a></li>
-                <li><a href=#>Cart</a></li>
+            <li><a href="produk_user.php">Produk</a></li>
+                <li><a href="keranjang.php">Cart</a></li>
+                <li><a href="checkout.php">Pemesanan</a></li>
+                <li><a href="riwayat.php">Riwayat Pembelian</a></li>
                 <li><a href="logout.php">Logout</a></li>
-
             </ul>
         </div>
     </header> 
-
-    <!-- content -->
-    <div class="section">
-        <div class="container">
-            <div class="box">
-                <h4>Halo <b><?php echo $_SESSION['user']; ?>.</h4>
-            </div>
-        </div>  
-    </div>
 
     <!-- search -->
     <div class="search">
@@ -50,6 +42,15 @@
                 <input type="submit" name="cari" value="Cari Produk">
             </form>
         </div>
+    </div>
+
+    <!-- content -->
+    <div class="section">
+        <div class="container">
+            <div class="box">
+                <h4>Halo <b><?php echo $_SESSION['user']; ?>.</h4>
+            </div>
+        </div>  
     </div>
 
     <!-- kategori -->
