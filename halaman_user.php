@@ -63,7 +63,7 @@
                     if(mysqli_num_rows($kategori) > 0){
                         while($k = mysqli_fetch_array($kategori)){
                 ?>
-                    <a href="produk.php?kat=<?php echo $k['id_kategori'] ?>">
+                    <a href="produk_user.php?kat=<?php echo $k['id_kategori'] ?>">
                         <div class="col-5">
                             <img src="img/kategori.png" width="50px" style="margin-bottom:5px;">
                             <p><?php echo $k['nama_kategori'] ?></p>
@@ -85,7 +85,7 @@
                     if(mysqli_num_rows($produk) > 0){
                         while($p = mysqli_fetch_array($produk)){
                 ?>
-                    <a href="detail-produk.php?id=<?php echo $p['id_produk'] ?>">
+                    <a href="detail-produk-user.php?id=<?php echo $p['id_produk'] ?>">
                         <div class="col-4">
                             <img src="produk/<?php echo $p['img_produk'] ?>">
                             <p class="nama"><?php echo $p['nama_produk'] ?></p>
