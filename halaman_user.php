@@ -32,7 +32,7 @@
                 <li><a href="logout.php">Logout</a></li>
             </ul>
         </div>
-    </header> 
+    </header>
 
     <!-- search -->
     <div class="search">
