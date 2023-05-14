@@ -38,16 +38,6 @@
         </div>
     </header> 
 
-    <!-- content -->
-    <div class="section">
-        <div class="container">
-            <h3>Dashboard</h3>
-            <div class="box">
-                <h4>Halo <b><?php echo $_SESSION['user']; ?></b> Anda telah login sebagai <b><?php echo $_SESSION['level']; ?></b>.</h4>
-            </div>
-        </div>  
-    </div>
-
     <!-- transaksi -->
     <div class="section">
         <div class="container">
