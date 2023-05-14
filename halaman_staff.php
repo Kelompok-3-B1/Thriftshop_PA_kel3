@@ -24,12 +24,11 @@
             <h1><a href="halaman_staff.php">THRIFT SHOP</a></h1>
             <ul>
                 <li><a href="halaman_staff.php">Dashboard</a></li>
-                <li><a href=#>Transaksi</a></li>
+                <li><a href="transaksi.php">Transaksi</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
         </div>
-    </header> 
-
+    </header>
     <!-- content -->
     <div class="section">
         <div class="container">
