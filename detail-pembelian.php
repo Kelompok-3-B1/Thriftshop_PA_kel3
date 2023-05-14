@@ -41,7 +41,7 @@
     <!-- transaksi -->
     <div class="section">
         <div class="container">
-            <h2>Detail Pembelian</h2><br>
+            <h2>Detail Penjualan</h2><br>
             <div class="box">
                 <?php
                 $data = $conn->query("SELECT * FROM tb_pembelian JOIN tb_user ON tb_pembelian.id_user=tb_user.id_user
@@ -54,7 +54,7 @@
                         <h3>Pembelian</h3>
                         <strong><?php echo $detail['tgl_pembelian'] ?></strong><br>
                         tanggal: <?php echo $detail['tgl_pembelian']; ?> <br>
-                        Total: <?php echo $detail['total_pembelian']; ?>
+                        Total: Rp. <?php echo number_format ($detail['total_pembelian']); ?>
                     </div><br>
                     <div class="col-md-4">
                         <h3>Pelanggan</h3>
