@@ -51,22 +51,28 @@
                     <tbody>
                         <?php $nomor=1; ?>
                         <?php $ambil = $conn->query("SELECT * FROM tb_pembelian JOIN tb_user ON tb_pembelian.id_user=tb_user.id_user");?>
-                        <?php while($data = $ambil->fetch_assoc()){ ?>
-                        <tr>
-                            <td><?php echo $nomor; ?></td>
-                            <td><?php echo $data["nama"]; ?></td>
-                            <td><?php echo $data["tgl_pembelian"]; ?></td>
-                            <td><?php echo $data["status_pembelian"]; ?></td>
-                            <td><?php echo $data["total_pembelian"]; ?></td>
-                            <td>
-                                <a href="detail-pembelian.php?id=<?php echo $data['id_pembelian']; ?>" class= "btn">detail</a>
+                        <?php if ($ambil->num_rows > 0) { ?>
+                            <?php while($data = $ambil->fetch_assoc()){ ?>
+                                <tr>
+                                    <td><?php echo $nomor; ?></td>
+                                    <td><?php echo $data["nama"]; ?></td>
+                                    <td><?php echo $data["tgl_pembelian"]; ?></td>
+                                    <td><?php echo $data["status_pembelian"]; ?></td>
+                                    <td><?php echo $data["total_pembelian"]; ?></td>
+                                    <td>
+                                        <a href="detail-pembelian.php?id=<?php echo $data['id_pembelian']; ?>" class= "btn">detail</a>
 
-                                <?php if ($data['status_pembelian'] == "sudah kirim pembayaran"): ?>
-                                    <a href="detail-transaksi.php?id=<?php echo $data['id_pembelian']; ?>" class= "btn btn-danger btn-xs">Pembayaran</a>
-                                    <?php endif ?>
-                            </td>
-                        </tr>
-                        <?php $nomor++ ?>
+                                        <?php if ($data['status_pembelian'] == "sudah kirim pembayaran"): ?>
+                                            <a href="detail-transaksi.php?id=<?php echo $data['id_pembelian']; ?>" class= "btn btn-danger btn-xs">Pembayaran</a>
+                                        <?php endif ?>
+                                    </td>
+                                </tr>
+                                <?php $nomor++ ?>
+                            <?php } ?>
+                        <?php } else { ?>
+                            <tr>
+                                <td colspan="6">Data Penjualan Masih Kosong</td>
+                            </tr>
                         <?php } ?>
                     </tbody>
                 </table><br><br>
