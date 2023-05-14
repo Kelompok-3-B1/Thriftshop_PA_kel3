@@ -56,25 +56,31 @@
                     $id_user = $_SESSION['pelanggan']['id_user'];
 
                     $data = $conn->query("SELECT * FROM tb_pembelian WHERE id_user='$id_user'");
-                    while($print = $data->fetch_assoc()){
-                    ?>
-                    <tr>
-                        <td><?php echo $nomor; ?></td>
-                        <td><?php echo $print['tgl_pembelian'] ?></td>
-                        <td>
-                            <?php echo $print['status_pembelian'] ?>
-                            <br>
-                            <?php if(!empty($print['resi_pengiriman'])): ?>
-                                Resi: <?php echo $print['resi_pengiriman']; ?>
-                                <?php endif ?>
-                        </td>
-                        <td>Rp. <?php echo number_format ($print['total_pembelian']) ?></td>
-                        <td>
-                            <a href="nota.php?id=<?php echo $print['id_pembelian'] ?>" class="btn">Nota</a>
-                            <a href="pembayaran.php?id=<?php echo $print['id_pembelian'] ?>" class="btn">Pembayaran</a>
-                        </td>
-                    </tr>
-                    <?php $nomor++ ?>
+                    if ($data->num_rows > 0) {
+                        while($print = $data->fetch_assoc()){
+                        ?>
+                        <tr>
+                            <td><?php echo $nomor; ?></td>
+                            <td><?php echo $print['tgl_pembelian'] ?></td>
+                            <td>
+                                <?php echo $print['status_pembelian'] ?>
+                                <br>
+                                <?php if(!empty($print['resi_pengiriman'])): ?>
+                                    Resi: <?php echo $print['resi_pengiriman']; ?>
+                                    <?php endif ?>
+                            </td>
+                            <td>Rp. <?php echo number_format ($print['total_pembelian']) ?></td>
+                            <td>
+                                <a href="nota.php?id=<?php echo $print['id_pembelian'] ?>" class="btn">Nota</a>
+                                <a href="pembayaran.php?id=<?php echo $print['id_pembelian'] ?>" class="btn">Pembayaran</a>
+                            </td>
+                        </tr>
+                        <?php $nomor++ ?>
+                        <?php } ?>
+                    <?php } else { ?>
+                        <tr>
+                            <td colspan="5">Tidak ada riwayat pembelian</td>
+                        </tr>
                     <?php } ?>
                 </tbody>
             </table>
