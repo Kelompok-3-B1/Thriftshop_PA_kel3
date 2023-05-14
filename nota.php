@@ -57,7 +57,7 @@
                         <h3>Pembelian</h3>
                         <strong><?php echo $detail['tgl_pembelian'] ?></strong><br>
                         tanggal: <?php echo $detail['tgl_pembelian']; ?> <br>
-                        Total: <?php echo $detail['total_pembelian']; ?>
+                        Total: Rp. <?php echo number_format ($detail['total_pembelian']); ?>
                     </div><br>
                     <div class="col-md-4">
                         <h3>Pelanggan</h3>
