@@ -44,15 +44,6 @@
         </div>
     </header> 
 
-    <!-- content -->
-    <div class="section">
-        <div class="container">
-            <div class="box">
-                <h4>Halo <b><?php echo $_SESSION['user']; ?>.</h4>
-            </div>
-        </div>  
-    </div>
-
     <!-- cart -->
     <div class="section">
         <div class="container">
